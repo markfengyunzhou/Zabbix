@@ -16,7 +16,8 @@ def get_baseinfo(tag, uuid):
         cpuTime: the CPU time used in nanoseconds
     '''
 
-    '''virDomainState
+    '''refer to http://libvirt.org/html/libvirt-libvirt-domain.html#virDomainState 
+       virDomainState 
        VIR_DOMAIN_NOSTATE     = 0 : no state
        VIR_DOMAIN_RUNNING     = 1 : the domain is running
        VIR_DOMAIN_BLOCKED     = 2 : the domain is blocked on resource
